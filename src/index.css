@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Avenir Next";
+  src: url("/public/fonts/AvenirNext-Regular.otf");
+}
+
+@font-face {
+  font-family: "Avenir Next";
+  src: url("/public/fonts/AvenirNext-Bold.otf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Avenir Next";
+  src: url("/public/fonts/AvenirNext-It.otf");
+  font-style: italic;
+}
+
+body {
+  margin: 0;
+  font-family: "Avenir Next";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 22px;
+  color: black;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0px;
+  padding: 0px;
+}
