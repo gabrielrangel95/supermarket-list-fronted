@@ -15,6 +15,12 @@
   font-style: italic;
 }
 
+@font-face {
+  font-family: "Avenir Next";
+  src: url("/public/fonts/AvenirNext-Medium.ttf");
+  font-weight: 500;
+}
+
 body {
   margin: 0;
   font-family: "Avenir Next";
@@ -39,4 +45,9 @@ h3 {
   font-weight: 500;
   margin: 0px;
   padding: 0px;
+}
+
+::-webkit-scrollbar {
+  visibility: hidden;
+  width: 0px;
 }
