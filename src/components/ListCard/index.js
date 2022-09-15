@@ -1,11 +1,11 @@
 import { useState } from "react";
 import "./index.css";
 
-export const ListCard = ({ item }) => {
+export const ListCard = ({ item, onClick }) => {
   const [checked, setChecked] = useState(false);
 
   return (
-    <div className="list-card-container">
+    <div className="list-card-container" onClick={() => onClick(item)}>
       <div className="checkbox">
         <input
           onChange={() => setChecked(!checked)}
