@@ -12,6 +12,12 @@
   margin-bottom: 16px;
 }
 
+@media screen and (max-width: 420px) {
+  .input-container {
+    max-width: 300px;
+  }
+}
+
 .input-label {
   font-size: 12px;
   margin: 0px;

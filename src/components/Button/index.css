@@ -13,6 +13,12 @@
   border: 1px solid #7785db;
 }
 
+@media screen and (max-width: 420px) {
+  .button-container {
+    max-width: 300px;
+  }
+}
+
 .main {
   background-color: #7785db;
   color: white;

@@ -47,6 +47,16 @@ h3 {
   padding: 0px;
 }
 
+@media screen and (max-width: 420px) {
+  h1 {
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 12px;
+  }
+}
+
 ::-webkit-scrollbar {
   visibility: hidden;
   width: 0px;
