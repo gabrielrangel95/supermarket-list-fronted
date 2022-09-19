@@ -12,6 +12,10 @@ This is an application build using React.js, with the goal of make easier create
 - CSS
 - Axios
 
+## Requirements to Run:
+
+- Node.js (https://nodejs.org/en/)
+
 ## Running Instructions
 
 1. Clone the project:
