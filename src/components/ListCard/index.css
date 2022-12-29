@@ -3,51 +3,21 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  width: 100%;
+  width: 732px;
   height: 58px;
-  min-height: 58px;
-  padding: 0px 12px;
-  background-color: #f2f4ff;
+  background-color: #7785db;
   border-radius: 12px;
   margin-bottom: 24px;
+  padding: 0 12px;
 }
 
 .checkbox {
   display: flex;
+  align-items: center;
+  justify-content: center;
   width: 24px;
   height: 24px;
-  position: relative;
-  margin-right: 12px;
   object-fit: contain;
-}
-
-.list-card-text-container {
-  display: flex;
-  width: 90%;
-  flex-direction: column;
-}
-
-.list-card-title {
-  font-size: 16px;
-  font-weight: 500;
-  margin-bottom: 4px;
-}
-
-.list-card-subtitle {
-  font-size: 14px;
-}
-
-.arrow-icon-container {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: center;
-  width: 10%;
   cursor: pointer;
-}
-
-.arrow-icon {
-  width: 6px;
-  height: 12px;
-  object-fit: contain;
+  margin-right: 12px;
 }

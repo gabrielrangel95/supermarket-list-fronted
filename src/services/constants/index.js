@@ -1,1 +1,1 @@
-export const SAVE_USERNAME_PATH = "@supermarket-list:username";
+export const SAVE_USERNAME_PATH = '@supermarket-list:username'

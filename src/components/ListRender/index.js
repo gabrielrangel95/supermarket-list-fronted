@@ -1,5 +1,5 @@
-import { ListCard } from "../ListCard";
-import "./index.css";
+import { ListCard } from '../ListCard'
+import './index.css'
 
 export const ListRender = ({ list, onEdit, onCheckItem }) => {
   if (list?.length === 0) {
@@ -7,7 +7,7 @@ export const ListRender = ({ list, onEdit, onCheckItem }) => {
       <h3>
         Sua lista vazia, clique no botão "Adicionar" para incluir novos items.
       </h3>
-    );
+    )
   }
 
   return (
@@ -21,5 +21,5 @@ export const ListRender = ({ list, onEdit, onCheckItem }) => {
         />
       ))}
     </div>
-  );
-};
+  )
+}

@@ -1,2 +1,2 @@
-export * from "./Home";
-export * from "./List";
+export * from './Home'
+export * from './List'

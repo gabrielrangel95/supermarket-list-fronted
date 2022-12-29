@@ -1,21 +1,21 @@
-import { useState } from "react";
-import { useNavigate } from "react-router-dom";
-import "./index.css";
-import { Button, Input } from "../../components";
-import { SAVE_USERNAME_PATH } from "../../services/constants";
+import { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
+import './index.css'
+import { Button, Input } from '../../components'
+import { SAVE_USERNAME_PATH } from '../../services/constants'
 
 export const HomeScreen = () => {
-  const navigate = useNavigate();
-  const [username, setUsername] = useState("");
+  const navigate = useNavigate()
+  const [username, setUsername] = useState('')
 
   const onClickContinue = () => {
     if (username.length < 3) {
-      alert("Username deve conter mais do que 3 caracteres!");
-      return;
+      alert('Username deve conter mais do que 3 caracteres!')
+      return
     }
-    localStorage.setItem(SAVE_USERNAME_PATH, username);
-    navigate("/list");
-  };
+    localStorage.setItem(SAVE_USERNAME_PATH, username)
+    navigate('/list')
+  }
 
   return (
     <div className="home-screen-container">
@@ -47,5 +47,5 @@ export const HomeScreen = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
