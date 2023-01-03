@@ -1,4 +1,4 @@
-import { ListCard } from '../ListCard'
+import { ListCard } from 'components/ListCard'
 import './index.css'
 
 export const ListRender = ({ list, onEdit, onCheckItem }) => {
