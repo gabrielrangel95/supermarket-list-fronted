@@ -1,11 +1,11 @@
-import "./index.css";
+import './index.css'
 
 export const Button = ({ children, onClick, variant, icon }) => {
   return (
     <button
       onClick={onClick}
       className={`button-container ${
-        variant === "outline" ? "outline" : "main"
+        variant === 'outline' ? 'outline' : 'main'
       } `}
     >
       {icon && (
@@ -17,5 +17,5 @@ export const Button = ({ children, onClick, variant, icon }) => {
       )}
       {children}
     </button>
-  );
-};
+  )
+}

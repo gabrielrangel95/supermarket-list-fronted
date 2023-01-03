@@ -1,3 +1,3 @@
-import "./index.css";
+import './index.css'
 
-export const Loader = () => <span className="loader" />;
+export const Loader = () => <span className="loader" />
