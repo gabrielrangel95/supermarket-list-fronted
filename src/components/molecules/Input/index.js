@@ -1,16 +1,16 @@
-import './index.css'
+import { InputContainer, InputLabel, InputText } from './styles'
 
 export const Input = ({ label, placeholder, value, onChange, type }) => {
   return (
-    <div className="input-container">
-      <span className="input-label">{label}</span>
-      <input
+    <InputContainer>
+      <InputLabel className="input-label">{label}</InputLabel>
+      <InputText
         onChange={(e) => onChange(e.target.value)}
         value={value}
         className="input"
         placeholder={placeholder}
         type={type || 'text'}
       />
-    </div>
+    </InputContainer>
   )
 }

@@ -1,4 +1,4 @@
-import { ListCard } from 'components/ListCard'
+import { ListCard } from 'components/molecules/ListCard'
 import './index.css'
 
 export const ListRender = ({ list, onEdit, onCheckItem }) => {
